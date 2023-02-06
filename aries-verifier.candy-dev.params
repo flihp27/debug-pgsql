@@ -1,0 +1,18 @@
+APP_NAME=consommateur-virtuel
+APP_GROUP=vc-authn-oidc
+ENV_NAME=dev
+ACAPY_NAME=agent-consommateur
+POSTGRESQL_NAME=wallet-consommateur
+POSTGRESQL_PASSWORD=Bonjour01
+POSTGRESQL_IMAGE=vc-authn-database
+POSTGRESQL_TAG=latest
+IMAGE_NAMESPACE=exp-debug-rh-postgresql
+
+APP_DOMAIN=apps.exp.openshift.cqen.ca
+AGENT_SUBDOMAIN=exp-debug-rh-postgresql
+ACAPY_LABEL=Vérificateur d'authentification du CQEN
+WALLET_ENCRYPTION_KEY=Bonjour01
+GENESIS_FILE_URL=https://candy-dev.cloudcompass.ca/genesis
+ADMIN_API_KEY=
+WEBHOOK_URL=https://bonjour01.apps.exp.openshift.cqen.ca:5000
+STORAGE_CLASS_NAME=efs-3
