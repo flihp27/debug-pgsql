@@ -1,0 +1,5 @@
+waiting for server to start....2023-02-07 13:34:48.114 UTC [25] FATAL: data directory "/var/lib/pgsql/data/userdata" has wrong ownership
+2023-02-07 13:34:48.114 UTC [25] HINT: The server must be started by the user that owns the data directory.
+stopped waiting
+pg_ctl: could not start server
+Examine the log output.
