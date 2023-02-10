@@ -1,0 +1,17 @@
+allowVolumeExpansion: true
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  annotations:
+    description: Stockage AWS EFS V2
+  name: efs-exp
+parameters:
+  basePath: /dynamic_provisioning
+  directoryPerms: "0777"
+  fileSystemId: fs-0d1d5cb77de911a0e
+  gid: '1001160000'
+  uid: '1001160000'
+  provisioningMode: efs-ap
+provisioner: efs.csi.aws.com
+reclaimPolicy: Delete
+volumeBindingMode: WaitForFirstConsumer

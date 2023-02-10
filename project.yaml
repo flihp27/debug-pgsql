@@ -1,0 +1,10 @@
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
+  name: exp-debug-rh-postgresql
+  annotations:
+    openshift.io/description: 'Test project'
+    openshift.io/display-name: 'Test project'
+    openshift.io/sa.scc.uid-range: '1001160000/10000'
+    openshift.io/sa.scc.supplemental-groups: '1001160000/10000'
+    openshift.io/sa.scc.mcs: 's0:c10,c0'

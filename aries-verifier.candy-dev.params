@@ -15,4 +15,4 @@ WALLET_ENCRYPTION_KEY=Bonjour01
 GENESIS_FILE_URL=https://candy-dev.cloudcompass.ca/genesis
 ADMIN_API_KEY=
 WEBHOOK_URL=https://bonjour01.apps.exp.openshift.cqen.ca:5000
-STORAGE_CLASS_NAME=efs-3
+STORAGE_CLASS_NAME=efs-exp

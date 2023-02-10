@@ -1,1 +1,1 @@
-oc new-project exp-debug-rh-postgresql
+oc create -f project.yaml
